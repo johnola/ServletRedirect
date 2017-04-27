@@ -41,6 +41,7 @@ public class RedirectServlet extends HttpServlet {
 		//add the user to the session
 		HttpSession session = request.getSession();
 		session.setAttribute("user", u);
+		session.setAttribute("editProfile", true);
 				
 		//redirect to next page as indicated by the value of the nextURL variable
 		response.sendRedirect(request.getContextPath() + nextPage);

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<jsp:include page ="navbar.jsp"></jsp:include>
 <a href="HomeServlet">Go to Home Page</a>
 </body>
 </html>

@@ -11,6 +11,10 @@
 <title>Profile</title>
 </head>
 <body>
+<jsp:include page ="navbar.jsp"></jsp:include>
+<c:if test ="${editProfile==null}">
+<h1>User does not exist</h1>
+</c:if> 
 <table>
 <c:choose>
     <c:when test="${editProfile==false}">

@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:include page ="navbar.jsp"></jsp:include>
-<h1>${message}</h1>
-<h2>${user.getMotto()}</h2>
-<a href="profile.jsp">loginprofile</a>
+<jsp:include page ="navbar.jsp"></jsp:include></jsp:include>
 </body>
 </html>

@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title> Search Page</title>
 </head>
 <body>
 <jsp:include page ="navbar.jsp"></jsp:include>
-<h1>${message}</h1>
-<h2>${user.getMotto()}</h2>
-<a href="profile.jsp">loginprofile</a>
 </body>
 </html>
